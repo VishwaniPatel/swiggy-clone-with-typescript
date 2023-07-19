@@ -4,62 +4,39 @@ import HeaderUI from "./components/Header/HeaderUI";
 import MainSection from "./components/Main/MainSection";
 import RootLayout from "./pages/Root";
 import RestaurantDetails from "./pages/RestaurantDetails";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-// Define types for links and routes
-interface Link {
-  link: string;
-  label: string;
-}
-
-interface Route {
-  path: string;
-  element: React.ReactNode;
-  children?: Route[];
-}
-
-const router: Route[] = [
+const links = [
   {
-    path: "/",
-    element: <RootLayout />,
-    children: [
-      {
-        path: "/",
-        element: <MainSection />,
-      },
-      {
-        path: "/restaurant/:resId",
-        element: <RestaurantDetails />,
-      },
-    ],
-  },
-];
-
-const links: Link[] = [
-  {
-    link: "home",
+    link: "/",
     label: "Home",
   },
   {
-    link: "restaurants",
+    link: "/restaurants",
     label: "Restaurants",
   },
   {
-    link: "about",
+    link: "/about",
     label: "About",
   },
   {
-    link: "contact",
+    link: "/contact",
     label: "Contact",
   },
 ];
 
-function App(): React.FC {
+function App() {
   return (
     <MantineProvider>
       <Container size="xl" px="xs">
         <HeaderUI links={links} />
-        <RouterProvider router={router}></RouterProvider>
+        <Router>
+          <Routes>
+            <Route path="/" element={<RootLayout />} />
+            <Route path="/restaurants" element={<MainSection />} />
+            <Route path="/restaurant/:resId" element={<RestaurantDetails />} />
+          </Routes>
+        </Router>
       </Container>
     </MantineProvider>
   );
