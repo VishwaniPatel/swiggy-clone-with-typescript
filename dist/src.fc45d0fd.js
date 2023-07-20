@@ -79068,7 +79068,9 @@ var _TransferList = require("./TransferList/TransferList.js");
 var _Transition = require("./Transition/Transition.js");
 var _TypographyStylesProvider = require("./TypographyStylesProvider/TypographyStylesProvider.js");
 var _UnstyledButton = require("./UnstyledButton/UnstyledButton.js");
-},{"react-remove-scroll":"node_modules/react-remove-scroll/dist/es2015/index.js","@mantine/utils":"node_modules/@mantine/utils/esm/index.js","@mantine/styles":"node_modules/@mantine/styles/esm/index.js","./Transition/index.js":"node_modules/@mantine/core/esm/Transition/index.js","./Accordion/Accordion.js":"node_modules/@mantine/core/esm/Accordion/Accordion.js","./Accordion/ChevronIcon.js":"node_modules/@mantine/core/esm/Accordion/ChevronIcon.js","./ActionIcon/ActionIcon.js":"node_modules/@mantine/core/esm/ActionIcon/ActionIcon.js","./Affix/Affix.js":"node_modules/@mantine/core/esm/Affix/Affix.js","./Alert/Alert.js":"node_modules/@mantine/core/esm/Alert/Alert.js","./Anchor/Anchor.js":"node_modules/@mantine/core/esm/Anchor/Anchor.js","./AppShell/Navbar/Navbar.js":"node_modules/@mantine/core/esm/AppShell/Navbar/Navbar.js","./AppShell/Header/Header.js":"node_modules/@mantine/core/esm/AppShell/Header/Header.js","./AppShell/Aside/Aside.js":"node_modules/@mantine/core/esm/AppShell/Aside/Aside.js","./AppShell/Footer/Footer.js":"node_modules/@mantine/core/esm/AppShell/Footer/Footer.js","./AppShell/AppShell.js":"node_modules/@mantine/core/esm/AppShell/AppShell.js","./AspectRatio/AspectRatio.js":"node_modules/@mantine/core/esm/AspectRatio/AspectRatio.js","./Autocomplete/Autocomplete.js":"node_modules/@mantine/core/esm/Autocomplete/Autocomplete.js","./Avatar/Avatar.js":"node_modules/@mantine/core/esm/Avatar/Avatar.js","./BackgroundImage/BackgroundImage.js":"node_modules/@mantine/core/esm/BackgroundImage/BackgroundImage.js","./Badge/Badge.js":"node_modules/@mantine/core/esm/Badge/Badge.js","./Blockquote/Blockquote.js":"node_modules/@mantine/core/esm/Blockquote/Blockquote.js","./Box/Box.js":"node_modules/@mantine/core/esm/Box/Box.js","./Box/style-system-props/extract-system-styles/extract-system-styles.js":"node_modules/@mantine/core/esm/Box/style-system-props/extract-system-styles/extract-system-styles.js","./Box/style-system-props/get-system-styles/get-system-styles.js":"node_modules/@mantine/core/esm/Box/style-system-props/get-system-styles/get-system-styles.js","./Box/style-system-props/system-props/system-props.js":"node_modules/@mantine/core/esm/Box/style-system-props/system-props/system-props.js","./Breadcrumbs/Breadcrumbs.js":"node_modules/@mantine/core/esm/Breadcrumbs/Breadcrumbs.js","./Burger/Burger.js":"node_modules/@mantine/core/esm/Burger/Burger.js","./Button/Button.js":"node_modules/@mantine/core/esm/Button/Button.js","./Card/Card.js":"node_modules/@mantine/core/esm/Card/Card.js","./Card/CardSection/CardSection.js":"node_modules/@mantine/core/esm/Card/CardSection/CardSection.js","./Center/Center.js":"node_modules/@mantine/core/esm/Center/Center.js","./Checkbox/Checkbox.js":"node_modules/@mantine/core/esm/Checkbox/Checkbox.js","./Checkbox/CheckboxIcon.js":"node_modules/@mantine/core/esm/Checkbox/CheckboxIcon.js","./Chip/Chip.js":"node_modules/@mantine/core/esm/Chip/Chip.js","./CloseButton/CloseButton.js":"node_modules/@mantine/core/esm/CloseButton/CloseButton.js","./Code/Code.js":"node_modules/@mantine/core/esm/Code/Code.js","./Collapse/Collapse.js":"node_modules/@mantine/core/esm/Collapse/Collapse.js","./ColorInput/ColorInput.js":"node_modules/@mantine/core/esm/ColorInput/ColorInput.js","./ColorPicker/ColorPicker.styles.js":"node_modules/@mantine/core/esm/ColorPicker/ColorPicker.styles.js","./ColorPicker/ColorPicker.js":"node_modules/@mantine/core/esm/ColorPicker/ColorPicker.js","./ColorPicker/HueSlider/HueSlider.js":"node_modules/@mantine/core/esm/ColorPicker/HueSlider/HueSlider.js","./ColorPicker/AlphaSlider/AlphaSlider.js":"node_modules/@mantine/core/esm/ColorPicker/AlphaSlider/AlphaSlider.js","./ColorSwatch/ColorSwatch.js":"node_modules/@mantine/core/esm/ColorSwatch/ColorSwatch.js","./Container/Container.js":"node_modules/@mantine/core/esm/Container/Container.js","./CopyButton/CopyButton.js":"node_modules/@mantine/core/esm/CopyButton/CopyButton.js","./Dialog/Dialog.js":"node_modules/@mantine/core/esm/Dialog/Dialog.js","./Divider/Divider.js":"node_modules/@mantine/core/esm/Divider/Divider.js","./Drawer/Drawer.js":"node_modules/@mantine/core/esm/Drawer/Drawer.js","./FileButton/FileButton.js":"node_modules/@mantine/core/esm/FileButton/FileButton.js","./FileInput/FileInput.js":"node_modules/@mantine/core/esm/FileInput/FileInput.js","./Flex/Flex.js":"node_modules/@mantine/core/esm/Flex/Flex.js","./Flex/flex-props.js":"node_modules/@mantine/core/esm/Flex/flex-props.js","./FocusTrap/FocusTrap.js":"node_modules/@mantine/core/esm/FocusTrap/FocusTrap.js","./Grid/Grid.js":"node_modules/@mantine/core/esm/Grid/Grid.js","./Grid/Col/Col.js":"node_modules/@mantine/core/esm/Grid/Col/Col.js","./Group/Group.js":"node_modules/@mantine/core/esm/Group/Group.js","./Highlight/Highlight.js":"node_modules/@mantine/core/esm/Highlight/Highlight.js","./HoverCard/HoverCard.js":"node_modules/@mantine/core/esm/HoverCard/HoverCard.js","./Image/Image.js":"node_modules/@mantine/core/esm/Image/Image.js","./Indicator/Indicator.js":"node_modules/@mantine/core/esm/Indicator/Indicator.js","./Input/Input.js":"node_modules/@mantine/core/esm/Input/Input.js","./Input/Input.styles.js":"node_modules/@mantine/core/esm/Input/Input.styles.js","./Input/use-input-props.js":"node_modules/@mantine/core/esm/Input/use-input-props.js","./InputBase/InputBase.js":"node_modules/@mantine/core/esm/InputBase/InputBase.js","./JsonInput/validate-json/validate-json.js":"node_modules/@mantine/core/esm/JsonInput/validate-json/validate-json.js","./JsonInput/JsonInput.js":"node_modules/@mantine/core/esm/JsonInput/JsonInput.js","./Kbd/Kbd.js":"node_modules/@mantine/core/esm/Kbd/Kbd.js","./List/List.js":"node_modules/@mantine/core/esm/List/List.js","./Loader/Loader.js":"node_modules/@mantine/core/esm/Loader/Loader.js","./LoadingOverlay/LoadingOverlay.js":"node_modules/@mantine/core/esm/LoadingOverlay/LoadingOverlay.js","./Mark/Mark.js":"node_modules/@mantine/core/esm/Mark/Mark.js","./MediaQuery/MediaQuery.js":"node_modules/@mantine/core/esm/MediaQuery/MediaQuery.js","./Menu/Menu.js":"node_modules/@mantine/core/esm/Menu/Menu.js","./Modal/Modal.js":"node_modules/@mantine/core/esm/Modal/Modal.js","./ModalBase/ModalBase.js":"node_modules/@mantine/core/esm/ModalBase/ModalBase.js","./MultiSelect/MultiSelect.js":"node_modules/@mantine/core/esm/MultiSelect/MultiSelect.js","./NativeSelect/NativeSelect.js":"node_modules/@mantine/core/esm/NativeSelect/NativeSelect.js","./NavLink/NavLink.js":"node_modules/@mantine/core/esm/NavLink/NavLink.js","./Notification/Notification.js":"node_modules/@mantine/core/esm/Notification/Notification.js","./NumberInput/NumberInput.js":"node_modules/@mantine/core/esm/NumberInput/NumberInput.js","./Overlay/Overlay.js":"node_modules/@mantine/core/esm/Overlay/Overlay.js","./Pagination/Pagination.js":"node_modules/@mantine/core/esm/Pagination/Pagination.js","./Paper/Paper.js":"node_modules/@mantine/core/esm/Paper/Paper.js","./PasswordInput/PasswordInput.js":"node_modules/@mantine/core/esm/PasswordInput/PasswordInput.js","./PinInput/PinInput.js":"node_modules/@mantine/core/esm/PinInput/PinInput.js","./Popover/Popover.js":"node_modules/@mantine/core/esm/Popover/Popover.js","./Portal/Portal.js":"node_modules/@mantine/core/esm/Portal/Portal.js","./Portal/OptionalPortal.js":"node_modules/@mantine/core/esm/Portal/OptionalPortal.js","./Progress/Progress.js":"node_modules/@mantine/core/esm/Progress/Progress.js","./Radio/Radio.js":"node_modules/@mantine/core/esm/Radio/Radio.js","./Rating/Rating.js":"node_modules/@mantine/core/esm/Rating/Rating.js","./Rating/StarSymbol/StarIcon.js":"node_modules/@mantine/core/esm/Rating/StarSymbol/StarIcon.js","./RingProgress/RingProgress.js":"node_modules/@mantine/core/esm/RingProgress/RingProgress.js","./ScrollArea/ScrollArea.js":"node_modules/@mantine/core/esm/ScrollArea/ScrollArea.js","./SegmentedControl/SegmentedControl.js":"node_modules/@mantine/core/esm/SegmentedControl/SegmentedControl.js","./Select/Select.js":"node_modules/@mantine/core/esm/Select/Select.js","./Select/SelectRightSection/ChevronIcon.js":"node_modules/@mantine/core/esm/Select/SelectRightSection/ChevronIcon.js","./SimpleGrid/SimpleGrid.js":"node_modules/@mantine/core/esm/SimpleGrid/SimpleGrid.js","./SimpleGrid/get-sorted-breakpoints/get-sorted-breakpoints.js":"node_modules/@mantine/core/esm/SimpleGrid/get-sorted-breakpoints/get-sorted-breakpoints.js","./Skeleton/Skeleton.js":"node_modules/@mantine/core/esm/Skeleton/Skeleton.js","./Slider/Slider/Slider.js":"node_modules/@mantine/core/esm/Slider/Slider/Slider.js","./Slider/RangeSlider/RangeSlider.js":"node_modules/@mantine/core/esm/Slider/RangeSlider/RangeSlider.js","./Space/Space.js":"node_modules/@mantine/core/esm/Space/Space.js","./Spoiler/Spoiler.js":"node_modules/@mantine/core/esm/Spoiler/Spoiler.js","./Stack/Stack.js":"node_modules/@mantine/core/esm/Stack/Stack.js","./Stepper/Step/Step.js":"node_modules/@mantine/core/esm/Stepper/Step/Step.js","./Stepper/Stepper.js":"node_modules/@mantine/core/esm/Stepper/Stepper.js","./Switch/Switch.js":"node_modules/@mantine/core/esm/Switch/Switch.js","./Table/Table.js":"node_modules/@mantine/core/esm/Table/Table.js","./Tabs/Tabs.js":"node_modules/@mantine/core/esm/Tabs/Tabs.js","./Text/Text.js":"node_modules/@mantine/core/esm/Text/Text.js","./Textarea/Textarea.js":"node_modules/@mantine/core/esm/Textarea/Textarea.js","./TextInput/TextInput.js":"node_modules/@mantine/core/esm/TextInput/TextInput.js","./ThemeIcon/ThemeIcon.js":"node_modules/@mantine/core/esm/ThemeIcon/ThemeIcon.js","./Timeline/Timeline.js":"node_modules/@mantine/core/esm/Timeline/Timeline.js","./Timeline/TimelineItem/TimelineItem.js":"node_modules/@mantine/core/esm/Timeline/TimelineItem/TimelineItem.js","./Title/Title.js":"node_modules/@mantine/core/esm/Title/Title.js","./Tooltip/Tooltip.js":"node_modules/@mantine/core/esm/Tooltip/Tooltip.js","./TransferList/TransferList.js":"node_modules/@mantine/core/esm/TransferList/TransferList.js","./Transition/Transition.js":"node_modules/@mantine/core/esm/Transition/Transition.js","./TypographyStylesProvider/TypographyStylesProvider.js":"node_modules/@mantine/core/esm/TypographyStylesProvider/TypographyStylesProvider.js","./UnstyledButton/UnstyledButton.js":"node_modules/@mantine/core/esm/UnstyledButton/UnstyledButton.js"}],"src/components/Header/HeaderUI.tsx":[function(require,module,exports) {
+},{"react-remove-scroll":"node_modules/react-remove-scroll/dist/es2015/index.js","@mantine/utils":"node_modules/@mantine/utils/esm/index.js","@mantine/styles":"node_modules/@mantine/styles/esm/index.js","./Transition/index.js":"node_modules/@mantine/core/esm/Transition/index.js","./Accordion/Accordion.js":"node_modules/@mantine/core/esm/Accordion/Accordion.js","./Accordion/ChevronIcon.js":"node_modules/@mantine/core/esm/Accordion/ChevronIcon.js","./ActionIcon/ActionIcon.js":"node_modules/@mantine/core/esm/ActionIcon/ActionIcon.js","./Affix/Affix.js":"node_modules/@mantine/core/esm/Affix/Affix.js","./Alert/Alert.js":"node_modules/@mantine/core/esm/Alert/Alert.js","./Anchor/Anchor.js":"node_modules/@mantine/core/esm/Anchor/Anchor.js","./AppShell/Navbar/Navbar.js":"node_modules/@mantine/core/esm/AppShell/Navbar/Navbar.js","./AppShell/Header/Header.js":"node_modules/@mantine/core/esm/AppShell/Header/Header.js","./AppShell/Aside/Aside.js":"node_modules/@mantine/core/esm/AppShell/Aside/Aside.js","./AppShell/Footer/Footer.js":"node_modules/@mantine/core/esm/AppShell/Footer/Footer.js","./AppShell/AppShell.js":"node_modules/@mantine/core/esm/AppShell/AppShell.js","./AspectRatio/AspectRatio.js":"node_modules/@mantine/core/esm/AspectRatio/AspectRatio.js","./Autocomplete/Autocomplete.js":"node_modules/@mantine/core/esm/Autocomplete/Autocomplete.js","./Avatar/Avatar.js":"node_modules/@mantine/core/esm/Avatar/Avatar.js","./BackgroundImage/BackgroundImage.js":"node_modules/@mantine/core/esm/BackgroundImage/BackgroundImage.js","./Badge/Badge.js":"node_modules/@mantine/core/esm/Badge/Badge.js","./Blockquote/Blockquote.js":"node_modules/@mantine/core/esm/Blockquote/Blockquote.js","./Box/Box.js":"node_modules/@mantine/core/esm/Box/Box.js","./Box/style-system-props/extract-system-styles/extract-system-styles.js":"node_modules/@mantine/core/esm/Box/style-system-props/extract-system-styles/extract-system-styles.js","./Box/style-system-props/get-system-styles/get-system-styles.js":"node_modules/@mantine/core/esm/Box/style-system-props/get-system-styles/get-system-styles.js","./Box/style-system-props/system-props/system-props.js":"node_modules/@mantine/core/esm/Box/style-system-props/system-props/system-props.js","./Breadcrumbs/Breadcrumbs.js":"node_modules/@mantine/core/esm/Breadcrumbs/Breadcrumbs.js","./Burger/Burger.js":"node_modules/@mantine/core/esm/Burger/Burger.js","./Button/Button.js":"node_modules/@mantine/core/esm/Button/Button.js","./Card/Card.js":"node_modules/@mantine/core/esm/Card/Card.js","./Card/CardSection/CardSection.js":"node_modules/@mantine/core/esm/Card/CardSection/CardSection.js","./Center/Center.js":"node_modules/@mantine/core/esm/Center/Center.js","./Checkbox/Checkbox.js":"node_modules/@mantine/core/esm/Checkbox/Checkbox.js","./Checkbox/CheckboxIcon.js":"node_modules/@mantine/core/esm/Checkbox/CheckboxIcon.js","./Chip/Chip.js":"node_modules/@mantine/core/esm/Chip/Chip.js","./CloseButton/CloseButton.js":"node_modules/@mantine/core/esm/CloseButton/CloseButton.js","./Code/Code.js":"node_modules/@mantine/core/esm/Code/Code.js","./Collapse/Collapse.js":"node_modules/@mantine/core/esm/Collapse/Collapse.js","./ColorInput/ColorInput.js":"node_modules/@mantine/core/esm/ColorInput/ColorInput.js","./ColorPicker/ColorPicker.styles.js":"node_modules/@mantine/core/esm/ColorPicker/ColorPicker.styles.js","./ColorPicker/ColorPicker.js":"node_modules/@mantine/core/esm/ColorPicker/ColorPicker.js","./ColorPicker/HueSlider/HueSlider.js":"node_modules/@mantine/core/esm/ColorPicker/HueSlider/HueSlider.js","./ColorPicker/AlphaSlider/AlphaSlider.js":"node_modules/@mantine/core/esm/ColorPicker/AlphaSlider/AlphaSlider.js","./ColorSwatch/ColorSwatch.js":"node_modules/@mantine/core/esm/ColorSwatch/ColorSwatch.js","./Container/Container.js":"node_modules/@mantine/core/esm/Container/Container.js","./CopyButton/CopyButton.js":"node_modules/@mantine/core/esm/CopyButton/CopyButton.js","./Dialog/Dialog.js":"node_modules/@mantine/core/esm/Dialog/Dialog.js","./Divider/Divider.js":"node_modules/@mantine/core/esm/Divider/Divider.js","./Drawer/Drawer.js":"node_modules/@mantine/core/esm/Drawer/Drawer.js","./FileButton/FileButton.js":"node_modules/@mantine/core/esm/FileButton/FileButton.js","./FileInput/FileInput.js":"node_modules/@mantine/core/esm/FileInput/FileInput.js","./Flex/Flex.js":"node_modules/@mantine/core/esm/Flex/Flex.js","./Flex/flex-props.js":"node_modules/@mantine/core/esm/Flex/flex-props.js","./FocusTrap/FocusTrap.js":"node_modules/@mantine/core/esm/FocusTrap/FocusTrap.js","./Grid/Grid.js":"node_modules/@mantine/core/esm/Grid/Grid.js","./Grid/Col/Col.js":"node_modules/@mantine/core/esm/Grid/Col/Col.js","./Group/Group.js":"node_modules/@mantine/core/esm/Group/Group.js","./Highlight/Highlight.js":"node_modules/@mantine/core/esm/Highlight/Highlight.js","./HoverCard/HoverCard.js":"node_modules/@mantine/core/esm/HoverCard/HoverCard.js","./Image/Image.js":"node_modules/@mantine/core/esm/Image/Image.js","./Indicator/Indicator.js":"node_modules/@mantine/core/esm/Indicator/Indicator.js","./Input/Input.js":"node_modules/@mantine/core/esm/Input/Input.js","./Input/Input.styles.js":"node_modules/@mantine/core/esm/Input/Input.styles.js","./Input/use-input-props.js":"node_modules/@mantine/core/esm/Input/use-input-props.js","./InputBase/InputBase.js":"node_modules/@mantine/core/esm/InputBase/InputBase.js","./JsonInput/validate-json/validate-json.js":"node_modules/@mantine/core/esm/JsonInput/validate-json/validate-json.js","./JsonInput/JsonInput.js":"node_modules/@mantine/core/esm/JsonInput/JsonInput.js","./Kbd/Kbd.js":"node_modules/@mantine/core/esm/Kbd/Kbd.js","./List/List.js":"node_modules/@mantine/core/esm/List/List.js","./Loader/Loader.js":"node_modules/@mantine/core/esm/Loader/Loader.js","./LoadingOverlay/LoadingOverlay.js":"node_modules/@mantine/core/esm/LoadingOverlay/LoadingOverlay.js","./Mark/Mark.js":"node_modules/@mantine/core/esm/Mark/Mark.js","./MediaQuery/MediaQuery.js":"node_modules/@mantine/core/esm/MediaQuery/MediaQuery.js","./Menu/Menu.js":"node_modules/@mantine/core/esm/Menu/Menu.js","./Modal/Modal.js":"node_modules/@mantine/core/esm/Modal/Modal.js","./ModalBase/ModalBase.js":"node_modules/@mantine/core/esm/ModalBase/ModalBase.js","./MultiSelect/MultiSelect.js":"node_modules/@mantine/core/esm/MultiSelect/MultiSelect.js","./NativeSelect/NativeSelect.js":"node_modules/@mantine/core/esm/NativeSelect/NativeSelect.js","./NavLink/NavLink.js":"node_modules/@mantine/core/esm/NavLink/NavLink.js","./Notification/Notification.js":"node_modules/@mantine/core/esm/Notification/Notification.js","./NumberInput/NumberInput.js":"node_modules/@mantine/core/esm/NumberInput/NumberInput.js","./Overlay/Overlay.js":"node_modules/@mantine/core/esm/Overlay/Overlay.js","./Pagination/Pagination.js":"node_modules/@mantine/core/esm/Pagination/Pagination.js","./Paper/Paper.js":"node_modules/@mantine/core/esm/Paper/Paper.js","./PasswordInput/PasswordInput.js":"node_modules/@mantine/core/esm/PasswordInput/PasswordInput.js","./PinInput/PinInput.js":"node_modules/@mantine/core/esm/PinInput/PinInput.js","./Popover/Popover.js":"node_modules/@mantine/core/esm/Popover/Popover.js","./Portal/Portal.js":"node_modules/@mantine/core/esm/Portal/Portal.js","./Portal/OptionalPortal.js":"node_modules/@mantine/core/esm/Portal/OptionalPortal.js","./Progress/Progress.js":"node_modules/@mantine/core/esm/Progress/Progress.js","./Radio/Radio.js":"node_modules/@mantine/core/esm/Radio/Radio.js","./Rating/Rating.js":"node_modules/@mantine/core/esm/Rating/Rating.js","./Rating/StarSymbol/StarIcon.js":"node_modules/@mantine/core/esm/Rating/StarSymbol/StarIcon.js","./RingProgress/RingProgress.js":"node_modules/@mantine/core/esm/RingProgress/RingProgress.js","./ScrollArea/ScrollArea.js":"node_modules/@mantine/core/esm/ScrollArea/ScrollArea.js","./SegmentedControl/SegmentedControl.js":"node_modules/@mantine/core/esm/SegmentedControl/SegmentedControl.js","./Select/Select.js":"node_modules/@mantine/core/esm/Select/Select.js","./Select/SelectRightSection/ChevronIcon.js":"node_modules/@mantine/core/esm/Select/SelectRightSection/ChevronIcon.js","./SimpleGrid/SimpleGrid.js":"node_modules/@mantine/core/esm/SimpleGrid/SimpleGrid.js","./SimpleGrid/get-sorted-breakpoints/get-sorted-breakpoints.js":"node_modules/@mantine/core/esm/SimpleGrid/get-sorted-breakpoints/get-sorted-breakpoints.js","./Skeleton/Skeleton.js":"node_modules/@mantine/core/esm/Skeleton/Skeleton.js","./Slider/Slider/Slider.js":"node_modules/@mantine/core/esm/Slider/Slider/Slider.js","./Slider/RangeSlider/RangeSlider.js":"node_modules/@mantine/core/esm/Slider/RangeSlider/RangeSlider.js","./Space/Space.js":"node_modules/@mantine/core/esm/Space/Space.js","./Spoiler/Spoiler.js":"node_modules/@mantine/core/esm/Spoiler/Spoiler.js","./Stack/Stack.js":"node_modules/@mantine/core/esm/Stack/Stack.js","./Stepper/Step/Step.js":"node_modules/@mantine/core/esm/Stepper/Step/Step.js","./Stepper/Stepper.js":"node_modules/@mantine/core/esm/Stepper/Stepper.js","./Switch/Switch.js":"node_modules/@mantine/core/esm/Switch/Switch.js","./Table/Table.js":"node_modules/@mantine/core/esm/Table/Table.js","./Tabs/Tabs.js":"node_modules/@mantine/core/esm/Tabs/Tabs.js","./Text/Text.js":"node_modules/@mantine/core/esm/Text/Text.js","./Textarea/Textarea.js":"node_modules/@mantine/core/esm/Textarea/Textarea.js","./TextInput/TextInput.js":"node_modules/@mantine/core/esm/TextInput/TextInput.js","./ThemeIcon/ThemeIcon.js":"node_modules/@mantine/core/esm/ThemeIcon/ThemeIcon.js","./Timeline/Timeline.js":"node_modules/@mantine/core/esm/Timeline/Timeline.js","./Timeline/TimelineItem/TimelineItem.js":"node_modules/@mantine/core/esm/Timeline/TimelineItem/TimelineItem.js","./Title/Title.js":"node_modules/@mantine/core/esm/Title/Title.js","./Tooltip/Tooltip.js":"node_modules/@mantine/core/esm/Tooltip/Tooltip.js","./TransferList/TransferList.js":"node_modules/@mantine/core/esm/TransferList/TransferList.js","./Transition/Transition.js":"node_modules/@mantine/core/esm/Transition/Transition.js","./TypographyStylesProvider/TypographyStylesProvider.js":"node_modules/@mantine/core/esm/TypographyStylesProvider/TypographyStylesProvider.js","./UnstyledButton/UnstyledButton.js":"node_modules/@mantine/core/esm/UnstyledButton/UnstyledButton.js"}],"src/assets/images/logo.svg":[function(require,module,exports) {
+module.exports = "/logo.32e02122.svg";
+},{}],"src/components/Logo/Logo.tsx":[function(require,module,exports) {
 "use strict";
 
 var __importDefault = this && this.__importDefault || function (mod) {
@@ -79080,11 +79082,183 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 var react_1 = __importDefault(require("react"));
-var HeaderUI = function HeaderUI() {
-  return react_1.default.createElement("div", null, "HeaderUI");
+var core_1 = require("@mantine/core");
+var logo_svg_1 = __importDefault(require("../../assets/images/logo.svg"));
+function Logo() {
+  return react_1.default.createElement(core_1.Image, {
+    radius: "md",
+    src: logo_svg_1.default,
+    alt: "logo",
+    height: 55,
+    width: 35
+  });
+}
+exports.default = Logo;
+},{"react":"node_modules/react/index.js","@mantine/core":"node_modules/@mantine/core/esm/index.js","../../assets/images/logo.svg":"src/assets/images/logo.svg"}],"src/components/Header/HeaderUI.tsx":[function(require,module,exports) {
+"use strict";
+
+var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  var desc = Object.getOwnPropertyDescriptor(m, k);
+  if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+    desc = {
+      enumerable: true,
+      get: function get() {
+        return m[k];
+      }
+    };
+  }
+  Object.defineProperty(o, k2, desc);
+} : function (o, m, k, k2) {
+  if (k2 === undefined) k2 = k;
+  o[k2] = m[k];
+});
+var __setModuleDefault = this && this.__setModuleDefault || (Object.create ? function (o, v) {
+  Object.defineProperty(o, "default", {
+    enumerable: true,
+    value: v
+  });
+} : function (o, v) {
+  o["default"] = v;
+});
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+  __setModuleDefault(result, mod);
+  return result;
 };
-exports.default = HeaderUI;
-},{"react":"node_modules/react/index.js"}],"src/components/Main/MainSection.tsx":[function(require,module,exports) {
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.HeaderUI = void 0;
+var react_1 = __importStar(require("react"));
+var core_1 = require("@mantine/core");
+var hooks_1 = require("@mantine/hooks");
+var Logo_1 = __importDefault(require("../Logo/Logo"));
+var HEADER_HEIGHT = (0, core_1.rem)(60);
+var useStyles = (0, core_1.createStyles)(function (theme) {
+  var _a, _b, _c, _d;
+  return {
+    root: {
+      position: "relative",
+      zIndex: 1
+    },
+    dropdown: (_a = {
+      position: "absolute",
+      top: HEADER_HEIGHT,
+      left: 0,
+      right: 0,
+      zIndex: 0,
+      borderTopRightRadius: 0,
+      borderTopLeftRadius: 0,
+      borderTopWidth: 0,
+      overflow: "hidden"
+    }, _a[theme.fn.largerThan("sm")] = {
+      display: "none"
+    }, _a),
+    header: {
+      display: "flex",
+      justifyContent: "space-between",
+      alignItems: "center",
+      height: "100%"
+    },
+    links: (_b = {}, _b[theme.fn.smallerThan("sm")] = {
+      display: "none"
+    }, _b),
+    burger: (_c = {}, _c[theme.fn.largerThan("sm")] = {
+      display: "none"
+    }, _c),
+    link: (_d = {
+      display: "block",
+      lineHeight: 1,
+      padding: "".concat((0, core_1.rem)(8), " ").concat((0, core_1.rem)(12)),
+      borderRadius: theme.radius.sm,
+      textDecoration: "none",
+      color: theme.colorScheme === "dark" ? theme.colors.dark[0] : theme.colors.gray[7],
+      fontSize: theme.fontSizes.sm,
+      fontWeight: 500,
+      "&:hover": {
+        backgroundColor: theme.colorScheme === "dark" ? theme.colors.dark[6] : theme.colors.gray[0]
+      }
+    }, _d[theme.fn.smallerThan("sm")] = {
+      borderRadius: 0,
+      padding: theme.spacing.md
+    }, _d),
+    linkActive: {
+      "&, &:hover": {
+        backgroundColor: theme.fn.variant({
+          variant: "light",
+          color: theme.primaryColor
+        }).background,
+        color: theme.fn.variant({
+          variant: "light",
+          color: theme.primaryColor
+        }).color
+      }
+    }
+  };
+});
+var HeaderUI = function HeaderUI(_a) {
+  var links = _a.links;
+  var _b = (0, hooks_1.useDisclosure)(false),
+    opened = _b[0],
+    _c = _b[1],
+    toggle = _c.toggle,
+    close = _c.close;
+  var _d = (0, react_1.useState)(links[0].link),
+    active = _d[0],
+    setActive = _d[1];
+  var _e = useStyles(),
+    classes = _e.classes,
+    cx = _e.cx;
+  var items = links.map(function (link) {
+    var _a;
+    return react_1.default.createElement("a", {
+      key: link.label,
+      href: link.link,
+      className: cx(classes.link, (_a = {}, _a[classes.linkActive] = active === link.link, _a)),
+      onClick: function onClick(event) {
+        event.preventDefault();
+        setActive(link.link);
+        close();
+      }
+    }, link.label);
+  });
+  return react_1.default.createElement(core_1.Header, {
+    height: HEADER_HEIGHT,
+    mb: 120,
+    className: classes.root
+  }, react_1.default.createElement(core_1.Container, {
+    className: classes.header
+  }, react_1.default.createElement(Logo_1.default, null), react_1.default.createElement(core_1.Group, {
+    spacing: 5,
+    className: classes.links
+  }, items), react_1.default.createElement(core_1.Burger, {
+    opened: opened,
+    onClick: toggle,
+    className: classes.burger,
+    size: "sm"
+  }), react_1.default.createElement(core_1.Transition, {
+    transition: "pop-top-right",
+    duration: 200,
+    mounted: opened
+  }, function (styles) {
+    return react_1.default.createElement(core_1.Paper, {
+      className: classes.dropdown,
+      withBorder: true,
+      style: styles
+    }, items);
+  })));
+};
+exports.HeaderUI = HeaderUI;
+exports.default = exports.HeaderUI;
+},{"react":"node_modules/react/index.js","@mantine/core":"node_modules/@mantine/core/esm/index.js","@mantine/hooks":"node_modules/@mantine/hooks/esm/index.js","../Logo/Logo":"src/components/Logo/Logo.tsx"}],"src/components/Main/MainSection.tsx":[function(require,module,exports) {
 "use strict";
 
 var __importDefault = this && this.__importDefault || function (mod) {
@@ -87002,28 +87176,17 @@ var MainSection_1 = __importDefault(require("./components/Main/MainSection"));
 var Root_1 = __importDefault(require("./pages/Root"));
 var RestaurantDetails_1 = __importDefault(require("./pages/RestaurantDetails"));
 var react_router_dom_1 = require("react-router-dom");
-var router = [{
-  path: "/",
-  element: react_1.default.createElement(Root_1.default, null),
-  children: [{
-    path: "/",
-    element: react_1.default.createElement(MainSection_1.default, null)
-  }, {
-    path: "/restaurant/:resId",
-    element: react_1.default.createElement(RestaurantDetails_1.default, null)
-  }]
-}];
 var links = [{
-  link: "home",
+  link: "/",
   label: "Home"
 }, {
-  link: "restaurants",
+  link: "/restaurants",
   label: "Restaurants"
 }, {
-  link: "about",
+  link: "/about",
   label: "About"
 }, {
-  link: "contact",
+  link: "/contact",
   label: "Contact"
 }];
 function App() {
@@ -87032,9 +87195,16 @@ function App() {
     px: "xs"
   }, react_1.default.createElement(HeaderUI_1.default, {
     links: links
-  }), react_1.default.createElement(react_router_dom_1.RouterProvider, {
-    router: router
-  })));
+  }), react_1.default.createElement(react_router_dom_1.BrowserRouter, null, react_1.default.createElement(react_router_dom_1.Routes, null, react_1.default.createElement(react_router_dom_1.Route, {
+    path: "/",
+    element: react_1.default.createElement(Root_1.default, null)
+  }), react_1.default.createElement(react_router_dom_1.Route, {
+    path: "/restaurants",
+    element: react_1.default.createElement(MainSection_1.default, null)
+  }), react_1.default.createElement(react_router_dom_1.Route, {
+    path: "/restaurant/:resId",
+    element: react_1.default.createElement(RestaurantDetails_1.default, null)
+  })))));
 }
 exports.default = App;
 },{"react":"node_modules/react/index.js","@mantine/core":"node_modules/@mantine/core/esm/index.js","./components/Header/HeaderUI":"src/components/Header/HeaderUI.tsx","./components/Main/MainSection":"src/components/Main/MainSection.tsx","./pages/Root":"src/pages/Root.tsx","./pages/RestaurantDetails":"src/pages/RestaurantDetails.tsx","react-router-dom":"node_modules/react-router-dom/dist/index.js"}],"node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
@@ -87133,7 +87303,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51670" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51063" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
