@@ -30,13 +30,11 @@ function App() {
     <MantineProvider>
       <Container size="xl" px="xs">
         <HeaderUI links={links} />
-        <Router>
-          <Routes>
-            <Route path="/" element={<RootLayout />} />
-            <Route path="/restaurants" element={<MainSection />} />
-            <Route path="/restaurant/:resId" element={<RestaurantDetails />} />
-          </Routes>
-        </Router>
+        <Routes>
+          {/* <Route path="/" element={<RootLayout />} /> */}
+          <Route path="" element={<MainSection />} />
+          <Route path="/restaurant/:resId" element={<RestaurantDetails />} />
+        </Routes>
       </Container>
     </MantineProvider>
   );
