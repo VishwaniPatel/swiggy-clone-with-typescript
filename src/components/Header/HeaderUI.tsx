@@ -126,7 +126,6 @@ export const HeaderUI: React.FC<HeaderProps> = ({ links }) => {
     <Header height={HEADER_HEIGHT} mb={120} className={classes.root}>
       <Container className={classes.header}>
         <Logo />
-        {/* <MantineLogo size={28} /> */}
         <Group spacing={5} className={classes.links}>
           {items}
         </Group>
