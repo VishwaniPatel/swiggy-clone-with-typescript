@@ -12,15 +12,18 @@ const MainSection: React.FC = () => {
     //API CALL to fetch list of restaurants
     const data = await fetch(FETCH_RESTAURANTS);
     const json = await data.json();
-    console.log("Vite", json);
     if (json) {
-      setAllRestaurants(json.data?.cards[2]?.data?.data?.cards);
+      const data = json.data?.cards[2]?.data?.data?.cards;
+      const dataArray = data.map(
+        (item: { data: RestaurantModel }) => item.data
+      );
+      setAllRestaurants(dataArray);
       console.log(allRestaurants);
     }
   }
   return (
     <div>
-      <RestaurantList restaurants={{ data: allRestaurants }} />
+      <RestaurantList restaurants={allRestaurants} />
     </div>
   );
 };

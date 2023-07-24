@@ -4,17 +4,13 @@ import RestaurantCard from "../shared/RestaurantCard";
 import { Grid } from "@mantine/core";
 import { RestaurantModel } from "./model/RestaurantModel";
 interface Props {
-  restaurants: {
-    data: RestaurantModel[];
-  };
+  restaurants: RestaurantModel[];
 }
 const RestaurantList: React.FC<Props> = ({ restaurants }: Props) => {
-  const { data } = restaurants;
-
   return (
     <div>
       <Grid grow gutter={5} gutterXs="md" gutterMd="xl" gutterXl={50}>
-        {data?.map((restaurant) => {
+        {restaurants?.map((restaurant) => {
           return (
             <Grid.Col key={restaurant.id} span={4}>
               <Link to={"/restaurant/" + restaurant.id}>
